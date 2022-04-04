@@ -7,8 +7,7 @@ ascii_banner = pyfiglet.figlet_format("PORT SCANNER")
 print(ascii_banner)
 
 # Defining a target
-if len(sys.argv) == 2:
-	
+if len(sys.argv) == 2:	
 	# translate hostname to IPv4
 	target = socket.gethostbyname(sys.argv[1])
 else:
