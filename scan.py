@@ -3,8 +3,6 @@ import sys
 import socket
 from datetime import datetime
 
-# My secret configuration key : Q0VTSXthVFQkTlRpT25fYXVYX2MwbW1pVHN9
-
 ascii_banner = pyfiglet.figlet_format("PORT SCANNER")
 print(ascii_banner)
 
